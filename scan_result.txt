@@ -1,0 +1,38 @@
+# Nmap 7.98 scan initiated Mon Jun 29 21:07:11 2026 as: nmap -sS -oN scan_result.txt 192.168.31.0/24
+Packet capture filter (device eth2): dst host 192.168.31.112 and (icmp or icmp6 or ((tcp or udp or sctp) and (src host 192.168.31.1 or src host 192.168.31.39)))
+doAnyOutstandingRetransmits took 34ms
+processData took 148ms
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.44s latency).
+Scanned at 2026-06-29 21:07:26 Sri Lanka Standard Time for 249s
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 78:BB:C1:F5:C0:5A (Servercom (India) Private Limited)
+
+Nmap scan report for Nirdosh-s-A13.lan (192.168.31.39)
+Host is up (0.0066s latency).
+Scanned at 2026-06-29 21:07:26 Sri Lanka Standard Time for 8s
+All 1000 scanned ports on Nirdosh-s-A13.lan (192.168.31.39) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 1A:88:9C:0A:04:6D (Unknown)
+
+Packet capture filter (device lo0): dst host 192.168.31.112 and (icmp or icmp6 or ((tcp or udp or sctp) and (src host 192.168.31.112)))
+doAnyOutstandingRetransmits took 50ms
+Nmap scan report for DESKTOP-NOVA.lan (192.168.31.112)
+Host is up (0.013s latency).
+Scanned at 2026-06-29 21:11:35 Sri Lanka Standard Time for 6s
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Read from C:\Program Files (x86)\Nmap: nmap-mac-prefixes nmap-protocols nmap-services.
+# Nmap done at Mon Jun 29 21:11:41 2026 -- 256 IP addresses (3 hosts up) scanned in 270.82 seconds
